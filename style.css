@@ -7,17 +7,37 @@ nav ul li{
 }
 nav{
   text-align:center;
+  color: #0e2c4e;
 }
-p{
-  color:#123b27;
+p,blockquote{
+  color:#0e2c4e;
+  font-size: 20px;
 }
 h1,h2{
 
-color:#ff9999;
+color:#f1646a;
 }
-body{
-  background:#fffff;
+a{
+  color: #008890;
+  text-decoration: none;
 }
+
+header h1{
+
+color:black;
+  font-size: 50px;
+  text-align: center;
+}
+
+body {
+  background:#fde9e8;
+}
+
+body main{
+  background:#fde9e8;
+  margin: 20px;
+}
+
 header img{
   width:600px;
   display: block;
