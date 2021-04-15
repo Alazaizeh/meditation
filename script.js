@@ -1,21 +1,21 @@
-
-
 var Name = prompt('Please enter your name');
 alert("Welcome " +Name );
 
 if (confirm("Would you like to visit our Meditation guide ?")) {
   window.location.href ="howto.html";
 } else {
+
   var animal = prompt("OK !! Do you like 'dogs' or 'cats'?")
   
   while( animal!="cats" && animal!="dogs") {
-  animal = prompt("OK !! Do you like 'dogs' or 'cats'?")
+  animal = prompt("Do you like 'dogs' or 'cats'?")
   }
 
   var x = prompt("How much do you like "+animal+" 1 - 10?")
   while( x<0 || x>10) {
   x = prompt("How much do you like "+animal+" 1 - 10?")
   }
+
 
 
   if(animal=="dogs"){
@@ -33,6 +33,6 @@ if (confirm("Would you like to visit our Meditation guide ?")) {
     document.write(image);
   }
   window.scrollTo(0,document.body.scrollHeight);
+
   }
 }
-
